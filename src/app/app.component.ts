@@ -21,7 +21,7 @@ export class AppComponent implements OnInit, OnDestroy {
   charactersResults$!: Observable<any>;
   planetAndCharactersResults$!: Observable<any>;
   isLoading: boolean = false;
-  private subscriptions: Subscription[] = [];
+  subscriptions: Subscription[] = [];
 
   constructor(private mockDataService: MockDataService) {}
 
